@@ -11,6 +11,7 @@ public class AppConfig {
 		return new Veiculo();
 	}
 	
+	@Bean
 	public MarcaVeiculo getMarcaVeiculo() {
 		return new Marca();
 	}
